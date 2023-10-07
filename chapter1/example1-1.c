@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 void main() {
-   // การกำหนดตัวแปรแบบชุดอักขระ
-  char firstName[] = "Elon", lastName[] = "Musk",
-  address1[] = "Palo Alto", address2[] = "United",
-  email[] = "elon_musk@example.com",
-  carear[] = "Tesla";
+   // กำหนดสตริง ด้วยกำหนดขนาดของ char
+   char str1[10] = "1234567890123";
+   char str2[10] = "1234567890";
+   char str3[10] = "12345678";
 
-  printf("\nName: ");
-  printf(firstName);
-  printf(" ");
-  printf(lastName);
-  putchar('\n');
+   printf("str1 ==> ");
+   printf(str1);
+   putchar('\n');
 
-  printf("Career: ");
-  printf(carear);
-  putchar('\n');
+   printf("str2 ==> ");
+   printf(str2);
+   putchar('\n');
+
+   printf("str3 ==> ");
+   printf(str3);
+   putchar('\n');
+
+
 }
